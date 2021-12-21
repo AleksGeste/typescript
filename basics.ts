@@ -9,7 +9,7 @@ function add(n1: number, n2: number, showResult: boolean, phrase: string) {
   // check type of number1
   console.log("Type of n1: ", typeof n1);
 
-  // javascrip approach, which is not good
+  // javascript approach, which is not good
   // if (typeof n1 !== "number" || typeof n2 !== "number") {
   //   throw new Error("Incorrect input!");
   // }
