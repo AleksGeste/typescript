@@ -13,3 +13,6 @@
 9. Write something in app.ts file
 10. Compile ts file by `tsc app.ts`
 11. See result in the browser console
+
+- day two
+- 
