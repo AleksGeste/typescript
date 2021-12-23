@@ -29,4 +29,12 @@
 11. Functions as Types & Function Types & Callbacks
 12. The "unknown" & "never" Type
 
-- to be continue... 
+### Day 3 (22.12.21)
+- Compiler (its Configuration) and Debugging Typescript
+1. Run command `tsc --init` that will create tsconfig.json file
+2. For auto compile run `tsc --watch` command
+3. tsconfig file
+
+### Day 4 (23.12.21)
+- Next-generation JavaScript & TypeScript and Classes & Interfaces
+1. ...
