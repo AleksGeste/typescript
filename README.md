@@ -37,4 +37,9 @@
 
 ### Day 4 (23.12.21)
 - Next-generation JavaScript & TypeScript and Classes & Interfaces
-1. ...
+1. "let" and "const" 
+2. Arrow Functions
+3. Default Function Parameters
+4. The Spread Operator (...)
+5. Rest Parameters
+6. Array & Object Destructuring

@@ -102,7 +102,7 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+//    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "exclude": [
 //    "aliases.ts",
@@ -110,11 +110,5 @@
 //    "**/*.dev.ts",
     "node_modules", // would be the default
     "basic"
-  ],
-//  "include": [
-//    "app.ts"
-//  ],
-//  "files": [ // almost the same as include
-//    "app.ts"
-//  ]
+  ]
 }
