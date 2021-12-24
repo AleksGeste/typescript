@@ -57,4 +57,12 @@
 
 ### Day 5 (24.12.21)
 - Advanced Types, Generics, Decorators
-1. 
+1. Intersection Types
+2. More on Type Guards 
+3. Discriminated Unions 
+4. Type Casting 
+5. Index Properties 
+6. Function Overloads 
+7. Optional Chaining 
+8. Nullish Coalescing
+   
