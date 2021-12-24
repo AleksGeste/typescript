@@ -64,5 +64,13 @@
 5. Index Properties 
 6. Function Overloads 
 7. Optional Chaining 
-8. Nullish Coalescing
+8. Nullish Coalescing 
+9. What are Generics
+10. Creating a Generic Function
+11. Working with Constraints
+13. The "keyof" Constraint
+14. Generic Classes
+15. Generic Utility Types
+16. Decorators 
+17. 
    
