@@ -1,4 +1,4 @@
-console.log('Hi there ...')
+console.log('Hi there ...');
 
 const userName = 'Name';
 // userName = 'Alesja';
@@ -10,13 +10,13 @@ age = 39;
 // simple function
 const addSimple = function addFunction(a: number, b: number) {
     return a + b;
-}
+};
 console.log(addSimple(2, 3));
 
 // arrow function
 const addArrow = (a: number, b: number) => {
     return a + b;
-}
+};
 console.log(addArrow(2, 3));
 
 // arrow function with one expression
@@ -38,7 +38,7 @@ addArrow2(2);
 // where we will use it like this
 const button = document.querySelector('button');
 if (button) {
-    button.addEventListener('click', event => console.log(event))
+    button.addEventListener('click', event => console.log(event));
 }
 
 // functions default parameters
@@ -53,7 +53,7 @@ console.log(`Subtract numbers with 1 parameters: ${subtractNumbers(5)}`);
 // Spread operator
 const hobbies = ['Computer game', 'Swimming', 'Cooking'];
 const favoritesHobbies = ['Reading', ...hobbies];
-favoritesHobbies.push(...hobbies)
+favoritesHobbies.push(...hobbies);
 console.log(favoritesHobbies);
 
 // ... provide list of value from the array, which is very useful if we want
@@ -65,34 +65,34 @@ console.log(...favoritesHobbies);
 const person = {
     personName: 'Aleks',
     personAge: 38
-}
+};
 
-const aleksCopy = {...person}
+const aleksCopy = {...person};
 // const aleksCopy = person
 
-console.log(person)
-console.log(aleksCopy)
+console.log(person);
+console.log(aleksCopy);
 
 aleksCopy.personName = 'Aleksandrs';
 
-console.log(person)
-console.log(aleksCopy)
+console.log(person);
+console.log(aleksCopy);
 
 // Rest Parameters
 const addRest = (...numbers: number[]): number => {
     return numbers.reduce((currentResult, currentValue) => {
         return currentResult + currentValue;
     }, 0);
-}
-const addNum = addRest(1, 2, 3, 4, 5)
-console.log(addNum)
+};
+const addNum = addRest(1, 2, 3, 4, 5);
+console.log(addNum);
 
-const addNum2 = addRest(1, 2, 3, 4, 5, 6, 7, 8, 9, 0)
-console.log(addNum2)
+const addNum2 = addRest(1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
+console.log(addNum2);
 
-const arNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 3, 4, 5, 6, 7]
-const addNum3 = addRest(...arNum)
-console.log(addNum3)
+const arNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 3, 4, 5, 6, 7];
+const addNum3 = addRest(...arNum);
+console.log(addNum3);
 
 // Array and Object Destructuring
 // const hobby1 = hobbies[0];
@@ -105,15 +105,15 @@ console.log(addNum3)
 
 // Destructure === pull elements out of the array
 const [hobby1, hobby2, ...otherHobbies] = hobbies;
-console.log(hobbies)
-console.log(hobby1)
-console.log(hobby2)
-console.log(otherHobbies)
+console.log(hobbies);
+console.log(hobby1);
+console.log(hobby2);
+console.log(otherHobbies);
 
 // Object Destructuring
 const {personName, personAge} = person;
-console.log(personName, personAge)
+console.log(personName, personAge);
 
 // Also, we can override pulled out variables
 const {personName: someoneName, personAge: someoneAge} = person;
-console.log(someoneName, someoneAge)
+console.log(someoneName, someoneAge);

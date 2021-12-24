@@ -42,4 +42,19 @@
 3. Default Function Parameters
 4. The Spread Operator (...)
 5. Rest Parameters
-6. Array & Object Destructuring
+6. Array & Object Destructuring 
+7. Creating a First Class 
+8. Constructor Functions & The "this" Keyword
+9. "private" and "public" Access Modifiers "readonly" Properties 
+10. Inheritance 
+11. Overriding Properties & The "protected" Modifier and Getters & Setters 
+12. Static Methods & Properties 
+13. Abstract Classes 
+14. Singletons & Private Constructors 
+15. A First Interface and Using Interfaces with Classes 
+16. Readonly Interface Properties and Extending Interfaces as Function Types 
+17. Optional Parameters & Properties
+
+### Day 5 (24.12.21)
+- Advanced Types, Generics, Decorators
+1. 

@@ -109,6 +109,7 @@
 //    "*.dev.ts",
 //    "**/*.dev.ts",
     "node_modules", // would be the default
-    "basic"
+    "basic",
+    "other"
   ]
 }
