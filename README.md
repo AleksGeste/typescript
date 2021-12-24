@@ -68,9 +68,13 @@
 9. What are Generics
 10. Creating a Generic Function
 11. Working with Constraints
-13. The "keyof" Constraint
-14. Generic Classes
-15. Generic Utility Types
-16. Decorators 
-17. 
+12. The "keyof" Constraint
+13. Generic Classes
+14. Generic Utility Types
+15. Decorators
+16. Decorator Factories and Adding Multiple Decorators
+17. Property Decorators, Accessor & Parameter Decorators
+18. Returning (and changing) a Class in a Class Decorator
+19. Other Decorator Return Types 
+20. Validation with Decorators 
    
